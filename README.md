@@ -54,5 +54,5 @@ This template provides a basic setup for a Node.js project. It includes essentia
 - **Run the Production Build**: Run the project in production mode.
 
   ```sh
-  npm start
+  npm run start
   ```
