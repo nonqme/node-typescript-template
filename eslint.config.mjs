@@ -8,9 +8,9 @@ export default [
   { files: ['**/*.{js,mjs,cjs,ts}'] },
   { languageOptions: { globals: globals.node } },
   pluginJs.configs.recommended,
-  ...tseslint.configs.recommended,
   nodePlugin.configs['flat/recommended'],
   eslintConfigPrettier,
+  ...tseslint.configs.recommended,
   {
     rules: {
       'n/no-unpublished-import': [
@@ -25,6 +25,7 @@ export default [
           ],
         },
       ],
+      'n/no-missing-import': false,
     },
   },
 ];
