@@ -25,7 +25,7 @@ export default [
           ],
         },
       ],
-      'n/no-missing-import': false,
+      'n/no-missing-import': ['off'],
     },
   },
 ];
